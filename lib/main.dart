@@ -46,17 +46,15 @@ class _SplashState extends State<Splash> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Container(
-          alignment: Alignment.bottomCenter,
-          padding: EdgeInsets.only(bottom: 250),
-          color: Color.fromRGBO(255, 121, 199, 1),
-          child: Text(
-            "Safeline",
-            style: TextStyle(
-                fontSize: 40, color: Colors.white, fontStyle: FontStyle.italic),
-          ),
+    return Scaffold(
+      body: Container(
+        alignment: Alignment.bottomCenter,
+        padding: EdgeInsets.only(bottom: 200),
+        color: Color.fromRGBO(255, 121, 199, 1),
+        child: Text(
+          "Safeline",
+          style: TextStyle(
+              fontSize: 40, color: Colors.white, fontStyle: FontStyle.italic),
         ),
       ),
     );
